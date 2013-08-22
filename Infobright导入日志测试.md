@@ -23,8 +23,11 @@ AllowMySQLQueryPath = 1
 # 测试：
 1. 不同版本之间本地导入
 版本号         所用时间
+
 3.3.1           55s
+
 4.0.7           45s
+
 4.0.7(fifo)     44s
 
 * fifo的方式只有4.0+版本才支持，实现方式：
@@ -34,10 +37,15 @@ AllowMySQLQueryPath = 1
 
 2. 4.0.7远程导入
 远程导入，在mysql命令添加“--local-infile=1”选项
+
 导入方式            所用时间
+
 csvfile             132s
+
 csvfile+compress    51s
+
 fifo                133s
+
 fifo+compress       51s
 
 * compress是只在mysql命令添加“--compress”选项
