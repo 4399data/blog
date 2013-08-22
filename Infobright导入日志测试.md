@@ -4,12 +4,12 @@
 3. 内存：16G
 
 # Infobright的brighthouse.ini配置文件：
-ServerMainHeapSize = 4000（MB）
-ServerCompressedHeapSize = 500（MB）
-LoaderMainHeapSize = 800（MB）
-ClusterSize = 2000（MB）
-KNFolder = BH_RSI_Repository
-AllowMySQLQueryPath = 1
+>ServerMainHeapSize = 4000（MB）
+>ServerCompressedHeapSize = 500（MB）
+>LoaderMainHeapSize = 800（MB）
+>ClusterSize = 2000（MB）
+>KNFolder = BH_RSI_Repository
+>AllowMySQLQueryPath = 1
 
 # 数据文件：
 533M的csv文件
